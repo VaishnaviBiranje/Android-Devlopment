@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- CheckBox Section -->
+    <TextView
+        android:text="Select Hobbies:"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/c1"
+        android:text="Reading"/>
+
+    <CheckBox
+        android:id="@+id/c2"
+        android:text="Music"/>
+
+    <CheckBox
+        android:id="@+id/c3"
+        android:text="Sports"/>
+
+    <!-- RadioButton Section -->
+    <TextView
+        android:text="Select Gender:"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/r1"
+            android:text="Male"/>
+
+        <RadioButton
+            android:id="@+id/r2"
+            android:text="Female"/>
+
+    </RadioGroup>
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/btn"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background View -->
+    <TextView
+        android:text="Background Text"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:background="#FFCCBC"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Top View -->
+    <Button
+        android:id="@+id/btn"
+        android:text="Click Me"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>
